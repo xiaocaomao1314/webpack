@@ -1,0 +1,9 @@
+步骤
+npm  init -y
+根目录新建bin
+bin目录新建weipack.js  目录结构为 /bin/weipack.js
+weipack.js  内容必须指定执行环境为node   #!/usr/bin/env node
+配置 package.json
+package.json 新建 "bin": "./bin/weipack.js"
+npm link 链接到全局包中 形成一座无形的桥 相互互通
+终端 执行 weipack
