@@ -1,0 +1,20 @@
+div {
+    color: greenyellow;
+}
+
+.small {
+    width: 200px;
+    height: 200px;
+    background: url(../img/small.png) no-repeat;
+    transform: scaleX(45);
+}
+
+.big {
+    width: 500px;
+    height: 350px;
+    background: url(../img/big.png) no-repeat;
+}
+
+.imgs {
+    transform: rotate3d(1, 1, 1, 45deg);
+}

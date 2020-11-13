@@ -1,0 +1,5 @@
+//插件是为了解决预设无法解决的高级语法
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": ["@babel/plugin-proposal-class-properties", "@babel/plugin-transform-runtime","@babel/plugin-syntax-dynamic-import"]
+}
