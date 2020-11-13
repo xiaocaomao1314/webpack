@@ -1,0 +1,19 @@
+{
+    "name": "testweipack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "cross-env NODE_ENV=development webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/loader-utils": "^2.0.1",
+        "loader-utils": "^2.0.0",
+        "webpack": "^5.4.0",
+        "webpack-cli": "^4.2.0"
+    }
+}
