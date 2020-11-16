@@ -1,0 +1,28 @@
+(() => {
+    var __webpack_modules__ = ({
+        <%  for (let k in modules){%>
+        "<%- k %>": ((module, __unused_webpack_exports, __weipack__require) => {
+
+            eval(`<%-modules[k]%>`);
+
+        }),
+        <% } %>
+
+
+    });
+    var __webpack_module_cache__ = {};
+
+    function __weipack__require(moduleId) {
+        if (__webpack_module_cache__[moduleId]) {
+            return __webpack_module_cache__[moduleId].exports;
+        }
+        var module = __webpack_module_cache__[moduleId] = {
+            exports: {}
+        };
+        __webpack_modules__[moduleId](module, module.exports, __weipack__require);
+        return module.exports;
+    }
+    (() => {
+        eval(`<%-modules[entry]%>`);
+    })();
+})();

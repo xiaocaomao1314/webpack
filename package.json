@@ -1,0 +1,26 @@
+{
+    "name": "weipack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": "./bin/weipack.js",
+    "scripts ": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/parser": "^7.12.5",
+        "@babel/traverse": "^7.12.5",
+        "@types/cheerio": "^0.22.22",
+        "@types/ejs": "^3.0.5",
+        "@types/tapable": "^1.0.6",
+        "cheerio": "^1.0.0-rc.3",
+        "ejs": "^3.1.5",
+        "tapable": "^2.1.1"
+    },
+    "devDependencies": {
+        "@babel/generator": "^7.12.5"
+    }
+}
